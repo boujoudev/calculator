@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(2, 13, 34);
+    padding: 0%;
+    margin: 0%;
+}
+#result{
+    background-color: beige;
+    height: 100px;
+    width: 700px;
+    border-radius: 10px;
+    border: solid rgb(170, 9, 250) 3px; 
+   margin-top: 5%;
+   margin-left:auto ;
+   margin-right: auto;
+   
+}
+#numbersAndOperations{
+
+height: 220px;
+width: 700px;
+margin-top: 10px;
+padding: 5px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 10px;
+border: solid rgb(170, 9, 250) 2px;
+}
+#numbers{
+    float: left;
+    width: 80%;
+}
+#operations{
+
+    float: right;
+    width: 19%;
+
+}
+#numbers button {
+
+    width: 30%;
+    float: none;
+}
+#operations button {
+    width: 95%;
+   height: 35px;
+}
+button{
+    border-radius: 5px;
+    height: 50px;
+}
+button:hover{
+    background-color: bisque;
+}
+
+
